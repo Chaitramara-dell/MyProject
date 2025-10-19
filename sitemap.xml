@@ -6,17 +6,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://chaitramara-dell.github.io/MyProject/FAQ/</loc>
-         <lastmod>2025-10-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://chaitramara-dell.github.io/MyProject/Installation/</loc>
-         <lastmod>2025-10-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://chaitramara-dell.github.io/MyProject/configuration/</loc>
+         <lastmod>2025-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://chaitramara-dell.github.io/MyProject/faq/</loc>
+         <lastmod>2025-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://chaitramara-dell.github.io/MyProject/installation/</loc>
          <lastmod>2025-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
