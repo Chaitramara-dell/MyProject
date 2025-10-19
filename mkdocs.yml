@@ -1,6 +1,6 @@
 site_name: MyProject 
 theme:
-  name: cinder
+  name: material
 nav: 
   - Home: index.md 
   - Introduction: Introduction.md
