@@ -2,6 +2,7 @@ site_name: MyProject
 
 nav: 
   - Home: index.md 
-  - Introduction: Introduction.md 
+  - Introduction: Introduction.md
+  - FAQ: FAQ.md 
 
 site_url: https://github.com/Chaitramara-dell/MyProject.git
