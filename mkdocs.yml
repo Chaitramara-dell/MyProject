@@ -1,9 +1,12 @@
-site_name: MyProject 
-theme:
-  name: material
-nav: 
-  - Home: index.md 
-  - Introduction: Introduction.md
-  - FAQ: FAQ.md 
+  site_name: MyProject
 
-site_url: site_url: https://chaitramara-dell.github.io/MyProject/
+  theme:
+  name: material
+
+  nav:
+  - Home: index.md
+  - Introduction: Introduction.md
+  - FAQ: FAQ.md
+
+  site_url: https://chaitramara-dell.github.io/MyProject/
+
