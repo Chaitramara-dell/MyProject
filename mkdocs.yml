@@ -1,0 +1,5 @@
+site_name: MyProject 
+
+nav: 
+  - Home: index.md 
+  - Introduction: Introduction.md 
