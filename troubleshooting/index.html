@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     
-    <link rel="canonical" href="https://chaitramara-dell.github.io/MyProject/FAQ/">
+    <link rel="canonical" href="https://chaitramara-dell.github.io/MyProject/troubleshooting/">
     <link rel="shortcut icon" href="../img/favicon.ico">
 
     
-    <title>❓ Frequently Asked Questions - MyProject</title>
+    <title>Troubleshooting - MyProject</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -93,8 +93,8 @@
                 
                 
                 
-                    <li >
-                        <a href="../troubleshooting/">Troubleshooting</a>
+                    <li class="active">
+                        <a href="./">Troubleshooting</a>
                     </li>
                 
                 
@@ -112,6 +112,16 @@
                             <i class="fas fa-search"></i> Search
                         </a>
                     </li>
+                    <li >
+                        <a rel="prev" href="../configuration/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li class="disabled">
+                        <a rel="next" >
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
             </ul>
         </div>
     </div>
@@ -122,31 +132,46 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#frequently-asked-questions">❓ Frequently Asked Questions</a></li>
-            <li class="second-level"><a href="#q1-can-i-use-this-app-on-macos-or-linux">Q1. Can I use this app on macOS or Linux?</a></li>
-                
-            <li class="second-level"><a href="#q2-how-do-i-reset-configuration">Q2. How do I reset configuration?</a></li>
-                
-            <li class="second-level"><a href="#q3-how-do-i-stop-the-app">Q3. How do I stop the app?</a></li>
-                
-            <li class="second-level"><a href="#q4-where-can-i-report-bugs">Q4. Where can I report bugs?</a></li>
-                
+        <li class="first-level active"><a href="#troubleshooting">🩺 Troubleshooting</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="frequently-asked-questions">❓ Frequently Asked Questions</h1>
-<h3 id="q1-can-i-use-this-app-on-macos-or-linux">Q1. Can I use this app on macOS or Linux?</h3>
-<p>Yes! It works on Windows, macOS, and Linux.</p>
-<h3 id="q2-how-do-i-reset-configuration">Q2. How do I reset configuration?</h3>
-<p>Delete <code>.env</code> and re-run the setup commands.</p>
-<h3 id="q3-how-do-i-stop-the-app">Q3. How do I stop the app?</h3>
-<p>Press <strong>Ctrl + C</strong> in the terminal.</p>
-<h3 id="q4-where-can-i-report-bugs">Q4. Where can I report bugs?</h3>
-<p>Raise an issue on GitHub → <code>Issues</code> tab in your repository.</p>
-<hr />
+<h1 id="troubleshooting">🩺 Troubleshooting</h1>
+<p>Common issues and solutions during installation or setup.</p>
+<table>
+<thead>
+<tr>
+<th>Issue</th>
+<th>Cause</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>npm not recognized</code></td>
+<td>Node.js not installed</td>
+<td>Install Node.js and restart terminal</td>
+</tr>
+<tr>
+<td><code>Port already in use</code></td>
+<td>Another app using port 3000</td>
+<td>Change port in <code>.env</code> file</td>
+</tr>
+<tr>
+<td><code>Permission denied</code></td>
+<td>Missing admin rights</td>
+<td>Run terminal as Administrator</td>
+</tr>
+<tr>
+<td><code>Page not loading</code></td>
+<td>Server not running</td>
+<td>Run <code>npm start</code></td>
+</tr>
+</tbody>
+</table>
 <blockquote>
-<p>💬 For any feedback or suggestions, reach out to <strong>chaitramara@example.com</strong></p>
+<p>🆘 <strong>Still stuck?</strong> Try deleting <code>node_modules</code> and re-running <code>npm install</code>.</p>
 </blockquote></div>
         
         
