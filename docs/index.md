@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+# Welcome to Installation Guide 🚀
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This documentation helps you install and set up the *Application* quickly and correctly.
 
-## Commands
+## 📚 Topics Covered
+- [Prerequisites](prerequisites.md)
+- [Installation Steps](installation.md)
+- [Configuration](configuration.md)
+- [Troubleshooting](troubleshooting.md)
+- [FAQ](faq.md)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+> **Author:** Chaitra Mara  
+> **Version:** 1.0  
+> **Last Updated:** October 2025
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
