@@ -1,7 +1,7 @@
-  site_name: MyProject
+site_name: MyProject
 
-  theme:
-  name: material
+theme:
+  name: cinder
 
   nav:
   - Home: index.md
